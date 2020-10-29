@@ -122,12 +122,12 @@ static const timer_conf_t timer_config[] = {
  * @name Basic RTT emulation on top of RTC with 1024 Hz frequency
  * @{
  */
-#define RTT_FREQUENCY       (1024)
-#define RTT_MAX_VALUE       (0x7ffful)
+//#define RTT_FREQUENCY       (1024)
+//#define RTT_MAX_VALUE       (0x7ffful)
 
-#define LPTIMER_HZ          RTT_FREQUENCY
-#define LPTIMER_MAX_VALUE   RTT_MAX_VALUE
-#define LPTIMER_WIDTH       (15)
+//#define LPTIMER_HZ          RTT_FREQUENCY
+//#define LPTIMER_MAX_VALUE   RTT_MAX_VALUE
+//#define LPTIMER_WIDTH       (15)
 
 /**
  * @brief UART configuration
