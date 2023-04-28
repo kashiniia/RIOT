@@ -68,7 +68,7 @@ static inline void _reset(dht_t *dev)
 static inline int _wait_for_level(gpio_t pin, bool expect, unsigned timeout)
 {
     while (((gpio_read(pin) > 0) != expect) && timeout) {
-        xtimer_usleep(1);
+        xtimer_spin(1);
         timeout--;
     }
 
